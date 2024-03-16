@@ -9,7 +9,7 @@ pipeline {
         }
         stage('echoing the file') {
             steps {
-                sh "ca vamsi"
+                sh "cat vamsi"
             }
         }
     }
