@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('gitclone') {
             steps {
-                git branch: 'master', url:'https://github.com/vamsimeduri/multinranch.git'
+                 branch: 'fut1', url: 'https://github.com/vamsimeduri/multinranch.git'
             }
         }
         stage('echoing the file') {
             steps {
-                sh "ls -lrth"
+                sh "cat vamsi"
             }
         }
     }
