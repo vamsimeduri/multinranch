@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('gitclone') {
             steps {
-                 branch: 'fut1', url: 'https://github.com/vamsimeduri/multinranch.git'
+                 git branch: 'fut1', url: 'https://github.com/vamsimeduri/multinranch.git'
             }
         }
         stage('echoing the file') {
