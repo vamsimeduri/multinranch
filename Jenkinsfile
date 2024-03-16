@@ -9,7 +9,7 @@ pipeline {
         }
         stage('echoing the file') {
             steps {
-                sh "ls -lrth"
+                sh "ca vamsi"
             }
         }
     }
