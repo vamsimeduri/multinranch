@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('gitclone') {
             steps {
-                git branch: 'master', url: 'https://github.com/vamsimeduri/terraform-module.git'
+                git branch: 'master', url:'https://github.com/vamsimeduri/multinranch.git'
             }
         }
         stage('echoing the file') {
